@@ -41,7 +41,7 @@ public class ProceduralStringGenerator{
     static public func generateSVGString(settings : ProcStringsSettings) -> String{
         let lines = generateLines(params: settings);
         var stops = "";
-        for stop in settings.verticalGradients {
+        for stop in settings.gradients {
 //        stops += "<stop offset=\"0%\" stop-color=\"red\"/>";
             stops += "<stop offset=\"\(stop.offset)%\" stop-color=\"\(stop.color)\"/>";
         }
@@ -149,7 +149,7 @@ public class ProcStringsSettings{
     public var height : Float = 100;
     public var points : Int = 10;
     public var lines : Int = 100;
-    public var verticalGradients : [GradientStep] = []
+    public var gradients : [GradientStep] = []
 }
 
 public class GradientStep{

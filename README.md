@@ -28,21 +28,83 @@ Or from GitHub:
 pod 'VBRProceduralStrings', :git => 'https://github.com/v-braun/VBRProceduralStrings.git'
 ```
 
+*VBRProceduralStrings* use [Macaw](https://github.com/exyte/Macaw) to parse the generated SVG content and render it on an CALayer. You should add it also to your Podfile
+
 ### Manually
-1. Download and drop ```file-name.swift``` in your project.  
-2. Congratulations!  
+1. Download and drop ```VBRProceduralStrings.swift``` in your project.  
+2. Add Macaw to your project
+3. Congratulations!  
 
 
 ## Usage
 
-```
-use VBRProceduralStrings
+### Create an UIView
+``` swift
+    
+    let settings = ProcStringsSettings()
+    // _svgView is a placeholder that was setup on the main view via interfacebuilder
+    // see the example project for that
+    // you should do that in viewDidAppear that guarantee that width and hight has correct values
+    settings.width = Float(_svgView.bounds.width) 
+    settings.height = Float(_svgView.bounds.height)
+    settings.lines = 100
+    settings.points = 8
+    // horizontal gradients
+    settings.gradients.append(GradientStep(offset: 0, color: "#03a9f4")) 
+    settings.gradients.append(GradientStep(offset: 70, color: "#e91e63"))
+    
+    let subView = ProceduralStringGenerator.generateSVGUIView(settings: settings)
+    self.addSubView(subView)
+
 ```
 
-## Configuration
+### Create an UIImage
+``` swift
+    
+    let settings = ProcStringsSettings()
+    settings.width = 420 
+    settings.height = 240
+    settings.lines = 100
+    settings.points = 8
+    // horizontal gradients
+    settings.gradients.append(GradientStep(offset: 0, color: "#03a9f4")) 
+    settings.gradients.append(GradientStep(offset: 70, color: "#e91e63"))
+    
+    let image = ProceduralStringGenerator.generateSVGImage(settings: settings)
 
 ```
-configure VBRProceduralStrings
+
+### Create a SVG String
+``` swift
+    
+    let settings = ProcStringsSettings()
+    settings.width = 420 
+    settings.height = 240
+    settings.lines = 100
+    settings.points = 8
+    // horizontal gradients
+    settings.gradients.append(GradientStep(offset: 0, color: "#03a9f4")) 
+    settings.gradients.append(GradientStep(offset: 70, color: "#e91e63"))
+    
+    let svgString = ProceduralStringGenerator.generateSVGString(settings: settings)
+
+```
+
+
+### Use UIImageView extension
+``` swift
+    
+    let settings = ProcStringsSettings()
+    settings.width = 420 
+    settings.height = 240
+    settings.lines = 100
+    settings.points = 8
+    // horizontal gradients
+    settings.gradients.append(GradientStep(offset: 0, color: "#03a9f4")) 
+    settings.gradients.append(GradientStep(offset: 70, color: "#e91e63"))
+    
+    myUIImageView.generate(settings: settings)
+
 ```
 
 
