@@ -5,7 +5,7 @@ By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
 [![](https://img.shields.io/github/license/v-braun/VBRProceduralStrings.svg?style=flat-square)](https://github.com/v-braun/VBRProceduralStrings/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/v-braun/VBRProceduralStrings.svg?branch=master)](https://travis-ci.org/v-braun/VBRProceduralStrings)
-![Cocoapods](https://img.shields.io/cocoapods/v//VBRProceduralStrings.svg)
+![Cocoapods](https://img.shields.io/cocoapods/v//VBRProceduralStrings.svg?style=flat-square)
 
 <p align="center">
 <img width="40%" src="https://github.com/v-braun/VBRProceduralStrings/blob/master/.assets/Screenshot.png" />
