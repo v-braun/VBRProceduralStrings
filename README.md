@@ -1,5 +1,5 @@
 # VBRProceduralStrings
-> procedural generation of beautiful svg shapes
+> UIImageView extension for procedural generation of beautiful svg shapes
 
 By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
@@ -19,13 +19,13 @@ By [v-braun - viktor-braun.de](https://viktor-braun.de).
 VBRProceduralStrings is available on [CocoaPods](http://cocoapods.org). Just add the following to your project Podfile:
 
 ```ruby
-pod &#39;VBRProceduralStrings&#39;
+pod 'VBRProceduralStrings'
 ```
 
 Or from GitHub:
 
 ```ruby
-pod &#39;VBRProceduralStrings&#39;, :git =&gt; &#39;https://github.com/v-braun/VBRProceduralStrings.git&#39;
+pod 'VBRProceduralStrings', :git => 'https://github.com/v-braun/VBRProceduralStrings.git'
 ```
 
 ### Manually
