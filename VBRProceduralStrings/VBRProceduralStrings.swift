@@ -7,5 +7,5 @@
 //
 
 class VBRProceduralStrings {
-
+fail build
 }
