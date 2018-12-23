@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "VBRProceduralStrings/*.swift"
-  #s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "Pods/*"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -136,6 +136,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "Macaw", "~> 0.9.3"
+  s.dependency 'Macaw', '0.9.3'
 
 end
