@@ -1,4 +1,4 @@
-framework module Pods_VBRProceduralStrings {
+module Pods_VBRProceduralStrings {
   umbrella header "Pods-VBRProceduralStrings-umbrella.h"
 
   export *

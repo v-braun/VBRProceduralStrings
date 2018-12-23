@@ -7,96 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AF8D87321CFF5CF0091CE67 /* VBRProceduralStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8D87221CFF5CF0091CE67 /* VBRProceduralStrings.swift */; };
-		2F5C91139EFBCEADC5E4C18A /* Pods_VBRProceduralStrings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16CF096BE9034DC5797D3BC /* Pods_VBRProceduralStrings.framework */; };
+		2A93A29121D027F6002AE3E4 /* VBRProceduralStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A93A28F21D027F6002AE3E4 /* VBRProceduralStrings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A93A29821D028B6002AE3E4 /* VBRProceduralStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93A29721D028B6002AE3E4 /* VBRProceduralStrings.swift */; };
+		43164743DE87FF2630A8A2CC /* libPods-VBRProceduralStrings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD761B1A39119C14DD0A2C77 /* libPods-VBRProceduralStrings.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		2AF8D86D21CFF5CF0091CE67 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		2AF8D86F21CFF5CF0091CE67 /* libVBRProceduralStrings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVBRProceduralStrings.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AF8D87221CFF5CF0091CE67 /* VBRProceduralStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBRProceduralStrings.swift; sourceTree = "<group>"; };
-		3A0F2CC868914E1C10678235 /* Pods-VBRProceduralStrings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBRProceduralStrings.release.xcconfig"; path = "Pods/Target Support Files/Pods-VBRProceduralStrings/Pods-VBRProceduralStrings.release.xcconfig"; sourceTree = "<group>"; };
-		3BA01FCBEDF84F7FC1AD49F6 /* Pods-VBRProceduralStrings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBRProceduralStrings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VBRProceduralStrings/Pods-VBRProceduralStrings.debug.xcconfig"; sourceTree = "<group>"; };
-		D16CF096BE9034DC5797D3BC /* Pods_VBRProceduralStrings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VBRProceduralStrings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A93A28C21D027F6002AE3E4 /* VBRProceduralStrings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VBRProceduralStrings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A93A28F21D027F6002AE3E4 /* VBRProceduralStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBRProceduralStrings.h; sourceTree = "<group>"; };
+		2A93A29021D027F6002AE3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A93A29721D028B6002AE3E4 /* VBRProceduralStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBRProceduralStrings.swift; sourceTree = "<group>"; };
+		B6BD0E1A2DEAD3538C2D1E58 /* Pods-VBRProceduralStrings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBRProceduralStrings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VBRProceduralStrings/Pods-VBRProceduralStrings.debug.xcconfig"; sourceTree = "<group>"; };
+		CED5CD45F09202711CA22978 /* Pods-VBRProceduralStrings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBRProceduralStrings.release.xcconfig"; path = "Pods/Target Support Files/Pods-VBRProceduralStrings/Pods-VBRProceduralStrings.release.xcconfig"; sourceTree = "<group>"; };
+		FD761B1A39119C14DD0A2C77 /* libPods-VBRProceduralStrings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VBRProceduralStrings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AF8D86C21CFF5CF0091CE67 /* Frameworks */ = {
+		2A93A28921D027F6002AE3E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5C91139EFBCEADC5E4C18A /* Pods_VBRProceduralStrings.framework in Frameworks */,
+				43164743DE87FF2630A8A2CC /* libPods-VBRProceduralStrings.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AF8D86621CFF5CF0091CE67 = {
+		2A93A28221D027F6002AE3E4 = {
 			isa = PBXGroup;
 			children = (
-				2AF8D87121CFF5CF0091CE67 /* VBRProceduralStrings */,
-				2AF8D87021CFF5CF0091CE67 /* Products */,
-				995C611EA8F242071C820DEA /* Pods */,
-				9186A4AC2A324EB0990E16AB /* Frameworks */,
+				2A93A28E21D027F6002AE3E4 /* VBRProceduralStrings */,
+				2A93A28D21D027F6002AE3E4 /* Products */,
+				76B8BE266A678CE8092770C3 /* Pods */,
+				2EA4BB05A632B6F4230282F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2AF8D87021CFF5CF0091CE67 /* Products */ = {
+		2A93A28D21D027F6002AE3E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AF8D86F21CFF5CF0091CE67 /* libVBRProceduralStrings.a */,
+				2A93A28C21D027F6002AE3E4 /* VBRProceduralStrings.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AF8D87121CFF5CF0091CE67 /* VBRProceduralStrings */ = {
+		2A93A28E21D027F6002AE3E4 /* VBRProceduralStrings */ = {
 			isa = PBXGroup;
 			children = (
-				2AF8D87221CFF5CF0091CE67 /* VBRProceduralStrings.swift */,
+				2A93A28F21D027F6002AE3E4 /* VBRProceduralStrings.h */,
+				2A93A29021D027F6002AE3E4 /* Info.plist */,
+				2A93A29721D028B6002AE3E4 /* VBRProceduralStrings.swift */,
 			);
 			path = VBRProceduralStrings;
 			sourceTree = "<group>";
 		};
-		9186A4AC2A324EB0990E16AB /* Frameworks */ = {
+		2EA4BB05A632B6F4230282F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D16CF096BE9034DC5797D3BC /* Pods_VBRProceduralStrings.framework */,
+				FD761B1A39119C14DD0A2C77 /* libPods-VBRProceduralStrings.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		995C611EA8F242071C820DEA /* Pods */ = {
+		76B8BE266A678CE8092770C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3BA01FCBEDF84F7FC1AD49F6 /* Pods-VBRProceduralStrings.debug.xcconfig */,
-				3A0F2CC868914E1C10678235 /* Pods-VBRProceduralStrings.release.xcconfig */,
+				B6BD0E1A2DEAD3538C2D1E58 /* Pods-VBRProceduralStrings.debug.xcconfig */,
+				CED5CD45F09202711CA22978 /* Pods-VBRProceduralStrings.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2A93A28721D027F6002AE3E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A93A29121D027F6002AE3E4 /* VBRProceduralStrings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		2AF8D86E21CFF5CF0091CE67 /* VBRProceduralStrings */ = {
+		2A93A28B21D027F6002AE3E4 /* VBRProceduralStrings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AF8D87621CFF5CF0091CE67 /* Build configuration list for PBXNativeTarget "VBRProceduralStrings" */;
+			buildConfigurationList = 2A93A29421D027F6002AE3E4 /* Build configuration list for PBXNativeTarget "VBRProceduralStrings" */;
 			buildPhases = (
-				981693B7D07AE58105CD01CE /* [CP] Check Pods Manifest.lock */,
-				2AF8D86B21CFF5CF0091CE67 /* Sources */,
-				2AF8D86C21CFF5CF0091CE67 /* Frameworks */,
-				2AF8D86D21CFF5CF0091CE67 /* CopyFiles */,
+				8B96FD62103335437DCBE277 /* [CP] Check Pods Manifest.lock */,
+				2A93A28721D027F6002AE3E4 /* Headers */,
+				2A93A28821D027F6002AE3E4 /* Sources */,
+				2A93A28921D027F6002AE3E4 /* Frameworks */,
+				2A93A28A21D027F6002AE3E4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -104,43 +109,53 @@
 			);
 			name = VBRProceduralStrings;
 			productName = VBRProceduralStrings;
-			productReference = 2AF8D86F21CFF5CF0091CE67 /* libVBRProceduralStrings.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 2A93A28C21D027F6002AE3E4 /* VBRProceduralStrings.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2AF8D86721CFF5CF0091CE67 /* Project object */ = {
+		2A93A28321D027F6002AE3E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Viktor Braun - Software Development";
 				TargetAttributes = {
-					2AF8D86E21CFF5CF0091CE67 = {
+					2A93A28B21D027F6002AE3E4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
-			buildConfigurationList = 2AF8D86A21CFF5CF0091CE67 /* Build configuration list for PBXProject "VBRProceduralStrings" */;
+			buildConfigurationList = 2A93A28621D027F6002AE3E4 /* Build configuration list for PBXProject "VBRProceduralStrings" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2AF8D86621CFF5CF0091CE67;
-			productRefGroup = 2AF8D87021CFF5CF0091CE67 /* Products */;
+			mainGroup = 2A93A28221D027F6002AE3E4;
+			productRefGroup = 2A93A28D21D027F6002AE3E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AF8D86E21CFF5CF0091CE67 /* VBRProceduralStrings */,
+				2A93A28B21D027F6002AE3E4 /* VBRProceduralStrings */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2A93A28A21D027F6002AE3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		981693B7D07AE58105CD01CE /* [CP] Check Pods Manifest.lock */ = {
+		8B96FD62103335437DCBE277 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -161,18 +176,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AF8D86B21CFF5CF0091CE67 /* Sources */ = {
+		2A93A28821D027F6002AE3E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF8D87321CFF5CF0091CE67 /* VBRProceduralStrings.swift in Sources */,
+				2A93A29821D028B6002AE3E4 /* VBRProceduralStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2AF8D87421CFF5CF0091CE67 /* Debug */ = {
+		2A93A29221D027F6002AE3E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,6 +221,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -230,10 +246,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2AF8D87521CFF5CF0091CE67 /* Release */ = {
+		2A93A29321D027F6002AE3E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,6 +285,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -285,31 +304,60 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		2AF8D87721CFF5CF0091CE67 /* Debug */ = {
+		2A93A29521D027F6002AE3E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA01FCBEDF84F7FC1AD49F6 /* Pods-VBRProceduralStrings.debug.xcconfig */;
+			baseConfigurationReference = B6BD0E1A2DEAD3538C2D1E58 /* Pods-VBRProceduralStrings.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MT53UGXK6Y;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VBRProceduralStrings/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vb.sd.VBRProceduralStrings;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2AF8D87821CFF5CF0091CE67 /* Release */ = {
+		2A93A29621D027F6002AE3E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A0F2CC868914E1C10678235 /* Pods-VBRProceduralStrings.release.xcconfig */;
+			baseConfigurationReference = CED5CD45F09202711CA22978 /* Pods-VBRProceduralStrings.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MT53UGXK6Y;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VBRProceduralStrings/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vb.sd.VBRProceduralStrings;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +367,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AF8D86A21CFF5CF0091CE67 /* Build configuration list for PBXProject "VBRProceduralStrings" */ = {
+		2A93A28621D027F6002AE3E4 /* Build configuration list for PBXProject "VBRProceduralStrings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AF8D87421CFF5CF0091CE67 /* Debug */,
-				2AF8D87521CFF5CF0091CE67 /* Release */,
+				2A93A29221D027F6002AE3E4 /* Debug */,
+				2A93A29321D027F6002AE3E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AF8D87621CFF5CF0091CE67 /* Build configuration list for PBXNativeTarget "VBRProceduralStrings" */ = {
+		2A93A29421D027F6002AE3E4 /* Build configuration list for PBXNativeTarget "VBRProceduralStrings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AF8D87721CFF5CF0091CE67 /* Debug */,
-				2AF8D87821CFF5CF0091CE67 /* Release */,
+				2A93A29521D027F6002AE3E4 /* Debug */,
+				2A93A29621D027F6002AE3E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2AF8D86721CFF5CF0091CE67 /* Project object */;
+	rootObject = 2A93A28321D027F6002AE3E4 /* Project object */;
 }

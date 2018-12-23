@@ -1,3 +1,12 @@
 language: objective-c
+
+# if test available use this config istead of a custom script
+#xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+#xcode_project: VBRProceduralStrings.xcodeproj 
+# or use 
+# xcode_workspace: VBRProceduralStrings.xcworkspace 
+
+#xcode_scheme: VBRProceduralStrings
+
 script:
   - xcodebuild -scheme VBRProceduralStrings -workspace VBRProceduralStrings.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11.3' build

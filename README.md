@@ -7,7 +7,7 @@ By [v-braun - viktor-braun.de](https://viktor-braun.de).
 [![Build Status](https://travis-ci.org/v-braun/VBRProceduralStrings.svg?branch=master)](https://travis-ci.org/v-braun/VBRProceduralStrings)
 
 <p align="center">
-<img width="70%" src="https://via.placeholder.com/800x480.png?text=this%20is%20a%20placeholder%20for%20the%20project%20banner" />
+<img width="70%" src="https://github.com/v-braun/VBRProceduralStrings/blob/master/.assets/Screenshot.png" />
 </p>
 
 
