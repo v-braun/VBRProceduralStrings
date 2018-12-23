@@ -1,6 +1,0 @@
-module Pods_VBRProceduralStringsSample {
-  umbrella header "Pods-VBRProceduralStringsSample-umbrella.h"
-
-  export *
-  module * { export * }
-}

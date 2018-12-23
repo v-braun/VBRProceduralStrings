@@ -1,6 +1,0 @@
-module Macaw {
-  umbrella header "Macaw-umbrella.h"
-
-  export *
-  module * { export * }
-}
