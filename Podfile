@@ -4,4 +4,5 @@ use_frameworks!
 target 'VBRProceduralStrings' do
     project 'VBRProceduralStrings'
 
+    pod 'SwiftSVG', '~> 2.0'
 end

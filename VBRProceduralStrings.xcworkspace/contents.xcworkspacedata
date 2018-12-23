@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Samples/Samples.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Podfile">
    </FileRef>
    <FileRef

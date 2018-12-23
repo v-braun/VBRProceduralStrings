@@ -7,44 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F29C784E23AF6E14EAD73D629407C23 /* Pods-VBRProceduralStrings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCD8D89CF1C86618BB1347D862E43B2 /* Pods-VBRProceduralStrings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		887C8972E269FC003B4476E44C019720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		89F29A67FF3B4AE3D7012D0EC0F713E3 /* Pods-VBRProceduralStrings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD26D2F4DC9434AD8BFE156CC02F4E7 /* Pods-VBRProceduralStrings-dummy.m */; };
+		05B54CD78206597E3148D2F57D27C333 /* SVGShapeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A4C6335322CC6E5187797586933F04 /* SVGShapeElement.swift */; };
+		0A4CDCFC82442A0917CAED26EA93124A /* SVGPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184BABB3D7139622CC77801CD6908142 /* SVGPolyline.swift */; };
+		0BD574B415ED003F2B7FEDD67C020BDB /* NSBezierPath+CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50150E6C28020E6B1DB93D6AB61AAC /* NSBezierPath+CrossPlatform.swift */; };
+		0F879FB07CCB05B5036B31BBE3D10E67 /* SVGRootElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658C1312B0A8CF60AB65904C8D982C18 /* SVGRootElement.swift */; };
+		194947BD1CC51FBEFC678E4F8FE45F2E /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D6942F02BFFC972597ABC2F9256F27 /* Stylable.swift */; };
+		203198AA21979657C308B7C4730FBD05 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7C6F846ED95CA8FDF7CED632F88C9 /* UIColor+Extensions.swift */; };
+		232AFC90575A5BD6543BBAC27B6A1110 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D4F9CAB278A9828CFBA5B2199D8945 /* Stack.swift */; };
+		25D9CE7B3CDCB27637A392F6ADB1B0EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2C10ECFCDECD556506EDEE688CCE571B /* Dictionary+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A7189C44AC4C0573E5AA73F74FF93 /* Dictionary+Add.swift */; };
+		317E65CEF4A86E19A7CDE46DD7E7F1E8 /* Strokable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA679CA8A1745CDAD21FE16A4AAA2426 /* Strokable.swift */; };
+		3A81344260EC6CDA8F14F9D3DF9A8A19 /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEB91B7C5E3EFCE01A44B0D6CAF59B /* CrossPlatform.swift */; };
+		3D9EC4ED3A93A2ACEA733BBF7CBEFA36 /* FloatingPoint+DegreesRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BCC360328D399B3FED6D7581A2ED8D /* FloatingPoint+DegreesRadians.swift */; };
+		41AE0B6FCA194B04084626C3B47A0F4C /* SVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38846D32B5F293BE058EE6D8771148 /* SVGParser.swift */; };
+		48D9509042562C4E55AB3F215F34A0F8 /* SVGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5512325A69EB6AF2AFCC5B0EBA14C91 /* SVGView.swift */; };
+		4994752222FDE3E72F8ADF74DD45B8D4 /* PathDLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB1014E6ED974DB5F3C595B8581C2AD /* PathDLexer.swift */; };
+		55405E7BEC06386BA13056BA906CC880 /* Scalar+FromByteArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FCD9A58D6E9F6DAC88FA4A9E15ACF7 /* Scalar+FromByteArray.swift */; };
+		5F2A2EA90DBEFA0746621D79325CFD25 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3210A3DB6AB1741D869CEF1D1CF16 /* Transformable.swift */; };
+		667814348D677973377CAAF5631FDEDD /* SVGCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE925EB0BAE7A7734DD1E3546AE390 /* SVGCircle.swift */; };
+		67CFF679C51211C487DAE68268ABE654 /* SVGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A232BF5C620580C2AB86F0869A23028 /* SVGCache.swift */; };
+		6C9544BD8D37AE790328873F4D9074F4 /* CAShapeLayer+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3806E315958F2A2ABBDECE6A4D7DCB /* CAShapeLayer+SVG.swift */; };
+		6D5BD7C74EBFE9881C866B8F34B918F8 /* SVGGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE391AA6181BE181CED78A6720467F9 /* SVGGroup.swift */; };
+		700F758AA93032D173B7DFC45AAF2390 /* SwiftSVG-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB06355BBB5EF56CD2B0813B33AACB0 /* SwiftSVG-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A65F31E8E760E6990C4EF27CD4EAE7 /* DelaysApplyingAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69682DDD3A7146A60C8FA8B1DE498F7 /* DelaysApplyingAttributes.swift */; };
+		7A9332CCB556E00FF1759B342A04BF83 /* PathCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D1D369902BA11398CDA238824C00F7 /* PathCommand.swift */; };
+		7BBC50E273AC378D28AB2D79D636B56A /* CALayer+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA67511F53824956656E6AB1E55CE1 /* CALayer+SVG.swift */; };
+		8D9CD2273F6D2FBD504CD2382302C5AF /* Data+CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D040ADF1FB5DF7C0D2475914F332C55 /* Data+CacheKey.swift */; };
+		905C5300EE7AA8BAC88263248C34AE45 /* UIView+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A95BCC4A1F1A7F88E956E13882F14 /* UIView+SVG.swift */; };
+		9065E922C579180E12A5C2C800F3E6E8 /* SVGEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79137D5E4323C4EDA691FAC6326DC89D /* SVGEllipse.swift */; };
+		914CC43DE351981BB9E9262FD383B1CD /* SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BACFB75427B810E4BF150D34B6F84F /* SVGPath.swift */; };
+		935ABC9BA5B80877F5ACD0864FF76103 /* SVGElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213F7359C8582BDA62BA152351FB0ECB /* SVGElement.swift */; };
+		986E7AB8CE2D8C873439846EAB55EDBA /* SwiftSVG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BC1EABE0B8511469AA0AC686DC5EAE /* SwiftSVG-dummy.m */; };
+		9B85B40EF0C1505E73CE0A59B242622E /* Pods-VBRProceduralStrings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD26D2F4DC9434AD8BFE156CC02F4E7 /* Pods-VBRProceduralStrings-dummy.m */; };
+		9BDE79865C45B6133D59BE46FA589042 /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A86CAB8AD7B6E3003B3E8FBEC51033C /* String+Trim.swift */; };
+		9C6C5946A624D0C3BFDDBFC60D28AB0F /* SVGLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CD6B3F198756B12E6877B37F21E0D8 /* SVGLayer.swift */; };
+		A147822A9B09A94DC06AE92111FBE6A4 /* SVGParserSupportedElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C6203633BF54B1E39E9674507437 /* SVGParserSupportedElements.swift */; };
+		A70630EA06EA5D5B9450A60039FBE56C /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF98B8E3172D80C9630130567DAD07E /* DispatchQueue+Extensions.swift */; };
+		B18F3836FAAC3F0E28E96EB374B85116 /* ParsesAsynchronously.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EAAFD9E2951CCE2A67F0D6525B7AAB /* ParsesAsynchronously.swift */; };
+		B1C61310934A214C45C1396BFCCEDEAA /* Pods-VBRProceduralStrings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCD8D89CF1C86618BB1347D862E43B2 /* Pods-VBRProceduralStrings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B918C68063B23741BA69A7CEB931AAEB /* SVGLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0887B6C0DDA531B029CF056A33199657 /* SVGLine.swift */; };
+		BAECF1AFD5AC7F302EE3FBC596DF8318 /* CoordinateLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB573387FE36E43C8EB8F80C1F983D /* CoordinateLexer.swift */; };
+		C3D5F7359C5B9B274249D67F5C67C431 /* String+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8B6DFD0ACCCFE2BDA4EC3EB3CFFBB /* String+Subscript.swift */; };
+		C5AB335E84148640AD1E301D6518730B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C62B958DF1335A29F17B857B0E9F5855 /* NSXMLSVGParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822030A45C178C7D4A632D5A0F562DA /* NSXMLSVGParser.swift */; };
+		C7DD6D277F25452402694FCADBE062B4 /* SVGContainerElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258A4D5498F265A2D1FEFBE6B90874CC /* SVGContainerElement.swift */; };
+		C995EE170FBEDABC119CE15C3C1918F2 /* BinaryFloatingPoint+ParseLengthString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4DDD673F7EC8D048A1BE44BFDCD34 /* BinaryFloatingPoint+ParseLengthString.swift */; };
+		D3FDD4158D32A08F760A21B8495ACBE1 /* SVGPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834627532924945E0E5F5021007FF44 /* SVGPolygon.swift */; };
+		D53C6278862753B361B27793E50F4AA0 /* CALayer+Sublayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3CD815F20F372F8EE8A7B7D661B5C /* CALayer+Sublayers.swift */; };
+		E02C1DE706BE768CAAF839DA0B66728C /* Fillable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5091581A3715F0C993E9FE3302B83B06 /* Fillable.swift */; };
+		EA7584C4FB0B0313A526A007889388F6 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53B7ED8EFD67C577712E8DD6ACF4097 /* Identifiable.swift */; };
+		F04AB7BD3E577C30E3D8D7A9357B09A5 /* UIBezierPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D2C9E4C916821E7BC7521B12EE1A8E /* UIBezierPath+SVG.swift */; };
+		FD0871404CA8204EEADB9C4689976FD4 /* SVGRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF260BF9F11C8373AC951C3E50F985D /* SVGRectangle.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2E24D6D95AF8DDD7636348E1A89CBF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBBE5417CE45CDF672848563E0CB2ED4;
+			remoteInfo = SwiftSVG;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		07C76AE4E5664AFEC1410933A0D4E14A /* Pods_VBRProceduralStrings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VBRProceduralStrings.framework; path = "Pods-VBRProceduralStrings.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A8EC6680EBE90CEF13A0EDBDDF9DC /* SwiftSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSVG.framework; path = SwiftSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0887B6C0DDA531B029CF056A33199657 /* SVGLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGLine.swift; path = SwiftSVG/SVG/Elements/SVGLine.swift; sourceTree = "<group>"; };
 		0C59B91B7283B96EE151B17CC1B34716 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D040ADF1FB5DF7C0D2475914F332C55 /* Data+CacheKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+CacheKey.swift"; path = "SwiftSVG/SVG/Helpers/Data+CacheKey.swift"; sourceTree = "<group>"; };
+		16F8B6DFD0ACCCFE2BDA4EC3EB3CFFBB /* String+Subscript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Subscript.swift"; path = "SwiftSVG/SVG/Helpers/String+Subscript.swift"; sourceTree = "<group>"; };
+		184BABB3D7139622CC77801CD6908142 /* SVGPolyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGPolyline.swift; path = SwiftSVG/SVG/Elements/SVGPolyline.swift; sourceTree = "<group>"; };
+		18A4DDD673F7EC8D048A1BE44BFDCD34 /* BinaryFloatingPoint+ParseLengthString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BinaryFloatingPoint+ParseLengthString.swift"; path = "SwiftSVG/SVG/Helpers/BinaryFloatingPoint+ParseLengthString.swift"; sourceTree = "<group>"; };
+		1A86CAB8AD7B6E3003B3E8FBEC51033C /* String+Trim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Trim.swift"; path = "SwiftSVG/SVG/Helpers/String+Trim.swift"; sourceTree = "<group>"; };
+		1AE391AA6181BE181CED78A6720467F9 /* SVGGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGGroup.swift; path = SwiftSVG/SVG/Elements/SVGGroup.swift; sourceTree = "<group>"; };
+		1BF3210A3DB6AB1741D869CEF1D1CF16 /* Transformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = SwiftSVG/SVG/Attributes/Transformable.swift; sourceTree = "<group>"; };
+		213F7359C8582BDA62BA152351FB0ECB /* SVGElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGElement.swift; path = SwiftSVG/SVG/Elements/SVGElement.swift; sourceTree = "<group>"; };
+		258A4D5498F265A2D1FEFBE6B90874CC /* SVGContainerElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGContainerElement.swift; path = SwiftSVG/SVG/Elements/SVGContainerElement.swift; sourceTree = "<group>"; };
+		2834627532924945E0E5F5021007FF44 /* SVGPolygon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGPolygon.swift; path = SwiftSVG/SVG/Elements/SVGPolygon.swift; sourceTree = "<group>"; };
+		2FB743AE11CDFE5E7CA762EE7938026F /* Pods_VBRProceduralStrings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VBRProceduralStrings.framework; path = "Pods-VBRProceduralStrings.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA67511F53824956656E6AB1E55CE1 /* CALayer+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+SVG.swift"; path = "SwiftSVG/SVG Extensions/CALayer+SVG.swift"; sourceTree = "<group>"; };
+		35AEB91B7C5E3EFCE01A44B0D6CAF59B /* CrossPlatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossPlatform.swift; path = SwiftSVG/CrossPlatform.swift; sourceTree = "<group>"; };
 		37365B34E2FBFF411319A4DAA2DC9C66 /* Pods-VBRProceduralStrings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VBRProceduralStrings.modulemap"; sourceTree = "<group>"; };
+		399A7189C44AC4C0573E5AA73F74FF93 /* Dictionary+Add.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Add.swift"; path = "SwiftSVG/SVG/Helpers/Dictionary+Add.swift"; sourceTree = "<group>"; };
+		3BF260BF9F11C8373AC951C3E50F985D /* SVGRectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGRectangle.swift; path = SwiftSVG/SVG/Elements/SVGRectangle.swift; sourceTree = "<group>"; };
 		3DD26D2F4DC9434AD8BFE156CC02F4E7 /* Pods-VBRProceduralStrings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VBRProceduralStrings-dummy.m"; sourceTree = "<group>"; };
+		43B41B740803C283878E22DC1123749A /* SwiftSVG.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSVG.modulemap; sourceTree = "<group>"; };
+		4AF98B8E3172D80C9630130567DAD07E /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "SwiftSVG/SVG/Helpers/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
+		5057C6203633BF54B1E39E9674507437 /* SVGParserSupportedElements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGParserSupportedElements.swift; path = SwiftSVG/SVG/Parser/SVGParserSupportedElements.swift; sourceTree = "<group>"; };
+		5091581A3715F0C993E9FE3302B83B06 /* Fillable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fillable.swift; path = SwiftSVG/SVG/Attributes/Fillable.swift; sourceTree = "<group>"; };
+		50CD6B3F198756B12E6877B37F21E0D8 /* SVGLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGLayer.swift; path = "SwiftSVG/SVG Extensions/SVGLayer.swift"; sourceTree = "<group>"; };
+		534CEF2A73BC4FA0EF7020F1D1739699 /* SwiftSVG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSVG-prefix.pch"; sourceTree = "<group>"; };
+		56BACFB75427B810E4BF150D34B6F84F /* SVGPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGPath.swift; path = SwiftSVG/SVG/Elements/SVGPath.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A232BF5C620580C2AB86F0869A23028 /* SVGCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGCache.swift; path = SwiftSVG/SVG/Cache/SVGCache.swift; sourceTree = "<group>"; };
+		607A95BCC4A1F1A7F88E956E13882F14 /* UIView+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SVG.swift"; path = "SwiftSVG/SVG Extensions/UIView+SVG.swift"; sourceTree = "<group>"; };
 		61D8DEA9583584351CB1A54B513A4686 /* Pods-VBRProceduralStrings-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VBRProceduralStrings-resources.sh"; sourceTree = "<group>"; };
+		658C1312B0A8CF60AB65904C8D982C18 /* SVGRootElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGRootElement.swift; path = SwiftSVG/SVG/Elements/SVGRootElement.swift; sourceTree = "<group>"; };
+		66D6942F02BFFC972597ABC2F9256F27 /* Stylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stylable.swift; path = SwiftSVG/SVG/Attributes/Stylable.swift; sourceTree = "<group>"; };
+		6B50150E6C28020E6B1DB93D6AB61AAC /* NSBezierPath+CrossPlatform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBezierPath+CrossPlatform.swift"; path = "SwiftSVG/NSBezierPath+CrossPlatform.swift"; sourceTree = "<group>"; };
+		70D4F9CAB278A9828CFBA5B2199D8945 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = SwiftSVG/SVG/Helpers/Stack.swift; sourceTree = "<group>"; };
+		79137D5E4323C4EDA691FAC6326DC89D /* SVGEllipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGEllipse.swift; path = SwiftSVG/SVG/Elements/SVGEllipse.swift; sourceTree = "<group>"; };
 		7925B453B523FF6D4E317F45F7281AA8 /* Pods-VBRProceduralStrings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBRProceduralStrings.debug.xcconfig"; sourceTree = "<group>"; };
+		89D1D369902BA11398CDA238824C00F7 /* PathCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathCommand.swift; path = SwiftSVG/SVG/Iterators/PathCommand.swift; sourceTree = "<group>"; };
+		8AB06355BBB5EF56CD2B0813B33AACB0 /* SwiftSVG-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSVG-umbrella.h"; sourceTree = "<group>"; };
 		8BCD8D89CF1C86618BB1347D862E43B2 /* Pods-VBRProceduralStrings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VBRProceduralStrings-umbrella.h"; sourceTree = "<group>"; };
+		8CB1014E6ED974DB5F3C595B8581C2AD /* PathDLexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathDLexer.swift; path = SwiftSVG/SVG/Iterators/PathDLexer.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FCD9A58D6E9F6DAC88FA4A9E15ACF7 /* Scalar+FromByteArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Scalar+FromByteArray.swift"; path = "SwiftSVG/SVG/Helpers/Scalar+FromByteArray.swift"; sourceTree = "<group>"; };
+		99C3CD815F20F372F8EE8A7B7D661B5C /* CALayer+Sublayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Sublayers.swift"; path = "SwiftSVG/SVG/Helpers/CALayer+Sublayers.swift"; sourceTree = "<group>"; };
 		9AD39269079A399D7FF11E799AA6BE5F /* Pods-VBRProceduralStrings-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VBRProceduralStrings-acknowledgements.plist"; sourceTree = "<group>"; };
 		A33A33B84236285C33E9531D17B60017 /* Pods-VBRProceduralStrings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VBRProceduralStrings.release.xcconfig"; sourceTree = "<group>"; };
+		A5512325A69EB6AF2AFCC5B0EBA14C91 /* SVGView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGView.swift; path = "SwiftSVG/SVG Extensions/SVGView.swift"; sourceTree = "<group>"; };
 		AAC9BBC79068B45AE705EC47CE2394F2 /* Pods-VBRProceduralStrings-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VBRProceduralStrings-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACAE925EB0BAE7A7734DD1E3546AE390 /* SVGCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGCircle.swift; path = SwiftSVG/SVG/Elements/SVGCircle.swift; sourceTree = "<group>"; };
+		AF0980FD4CC91551925CF645AC41B002 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A4C6335322CC6E5187797586933F04 /* SVGShapeElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGShapeElement.swift; path = SwiftSVG/SVG/Elements/SVGShapeElement.swift; sourceTree = "<group>"; };
+		B69682DDD3A7146A60C8FA8B1DE498F7 /* DelaysApplyingAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaysApplyingAttributes.swift; path = SwiftSVG/SVG/Attributes/DelaysApplyingAttributes.swift; sourceTree = "<group>"; };
+		C0EB573387FE36E43C8EB8F80C1F983D /* CoordinateLexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinateLexer.swift; path = SwiftSVG/SVG/Iterators/CoordinateLexer.swift; sourceTree = "<group>"; };
+		C5D2C9E4C916821E7BC7521B12EE1A8E /* UIBezierPath+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+SVG.swift"; path = "SwiftSVG/SVG Extensions/UIBezierPath+SVG.swift"; sourceTree = "<group>"; };
+		CA3806E315958F2A2ABBDECE6A4D7DCB /* CAShapeLayer+SVG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+SVG.swift"; path = "SwiftSVG/SVG Extensions/CAShapeLayer+SVG.swift"; sourceTree = "<group>"; };
+		D53B7ED8EFD67C577712E8DD6ACF4097 /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = SwiftSVG/SVG/Attributes/Identifiable.swift; sourceTree = "<group>"; };
+		D822030A45C178C7D4A632D5A0F562DA /* NSXMLSVGParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSXMLSVGParser.swift; path = SwiftSVG/SVG/Parser/NSXMLSVGParser.swift; sourceTree = "<group>"; };
+		E2EAAFD9E2951CCE2A67F0D6525B7AAB /* ParsesAsynchronously.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParsesAsynchronously.swift; path = SwiftSVG/SVG/Elements/ParsesAsynchronously.swift; sourceTree = "<group>"; };
+		E6BC1EABE0B8511469AA0AC686DC5EAE /* SwiftSVG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSVG-dummy.m"; sourceTree = "<group>"; };
+		E729036C51D02B93EBB09FA9F75EA083 /* SwiftSVG.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSVG.xcconfig; sourceTree = "<group>"; };
+		E7BCC360328D399B3FED6D7581A2ED8D /* FloatingPoint+DegreesRadians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+DegreesRadians.swift"; path = "SwiftSVG/SVG/Helpers/FloatingPoint+DegreesRadians.swift"; sourceTree = "<group>"; };
+		EEB7C6F846ED95CA8FDF7CED632F88C9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "SwiftSVG/SVG/Helpers/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		FA679CA8A1745CDAD21FE16A4AAA2426 /* Strokable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strokable.swift; path = SwiftSVG/SVG/Attributes/Strokable.swift; sourceTree = "<group>"; };
+		FD38846D32B5F293BE058EE6D8771148 /* SVGParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGParser.swift; path = SwiftSVG/SVG/Parser/SVGParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A847FEC25D0DB4FEF4B463B1272DBC6F /* Frameworks */ = {
+		675C8C57B4534173E16BDFFBD3183FFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887C8972E269FC003B4476E44C019720 /* Foundation.framework in Frameworks */,
+				C5AB335E84148640AD1E301D6518730B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E285444A9D2B6585F50AFC5E442E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D9CE7B3CDCB27637A392F6ADB1B0EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2371D381A245B4EE17640546C7D8B6D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBCA8E10BEA9D9DA08A5DDA3128D0673 /* SwiftSVG */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33FD601BDCF6D68FDCC2B6C91B2894B8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				917849C17A6ABD2E0B015244C69F74D8 /* Pods-VBRProceduralStrings */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42C57D4815DE7BC70872987519575F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB743AE11CDFE5E7CA762EE7938026F /* Pods_VBRProceduralStrings.framework */,
+				047A8EC6680EBE90CEF13A0EDBDDF9DC /* SwiftSVG.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -55,12 +190,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		77F56628047F04C66287D1F0EF9103AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0980FD4CC91551925CF645AC41B002 /* Info.plist */,
+				43B41B740803C283878E22DC1123749A /* SwiftSVG.modulemap */,
+				E729036C51D02B93EBB09FA9F75EA083 /* SwiftSVG.xcconfig */,
+				E6BC1EABE0B8511469AA0AC686DC5EAE /* SwiftSVG-dummy.m */,
+				534CEF2A73BC4FA0EF7020F1D1739699 /* SwiftSVG-prefix.pch */,
+				8AB06355BBB5EF56CD2B0813B33AACB0 /* SwiftSVG-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSVG";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CACB985E8A8BB351E33719AC3461BF5C /* Products */,
+				2371D381A245B4EE17640546C7D8B6D2 /* Pods */,
+				42C57D4815DE7BC70872987519575F7A /* Products */,
 				33FD601BDCF6D68FDCC2B6C91B2894B8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -90,43 +240,115 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CACB985E8A8BB351E33719AC3461BF5C /* Products */ = {
+		FBCA8E10BEA9D9DA08A5DDA3128D0673 /* SwiftSVG */ = {
 			isa = PBXGroup;
 			children = (
-				07C76AE4E5664AFEC1410933A0D4E14A /* Pods_VBRProceduralStrings.framework */,
+				18A4DDD673F7EC8D048A1BE44BFDCD34 /* BinaryFloatingPoint+ParseLengthString.swift */,
+				99C3CD815F20F372F8EE8A7B7D661B5C /* CALayer+Sublayers.swift */,
+				30BA67511F53824956656E6AB1E55CE1 /* CALayer+SVG.swift */,
+				CA3806E315958F2A2ABBDECE6A4D7DCB /* CAShapeLayer+SVG.swift */,
+				C0EB573387FE36E43C8EB8F80C1F983D /* CoordinateLexer.swift */,
+				35AEB91B7C5E3EFCE01A44B0D6CAF59B /* CrossPlatform.swift */,
+				0D040ADF1FB5DF7C0D2475914F332C55 /* Data+CacheKey.swift */,
+				B69682DDD3A7146A60C8FA8B1DE498F7 /* DelaysApplyingAttributes.swift */,
+				399A7189C44AC4C0573E5AA73F74FF93 /* Dictionary+Add.swift */,
+				4AF98B8E3172D80C9630130567DAD07E /* DispatchQueue+Extensions.swift */,
+				5091581A3715F0C993E9FE3302B83B06 /* Fillable.swift */,
+				E7BCC360328D399B3FED6D7581A2ED8D /* FloatingPoint+DegreesRadians.swift */,
+				D53B7ED8EFD67C577712E8DD6ACF4097 /* Identifiable.swift */,
+				6B50150E6C28020E6B1DB93D6AB61AAC /* NSBezierPath+CrossPlatform.swift */,
+				D822030A45C178C7D4A632D5A0F562DA /* NSXMLSVGParser.swift */,
+				E2EAAFD9E2951CCE2A67F0D6525B7AAB /* ParsesAsynchronously.swift */,
+				89D1D369902BA11398CDA238824C00F7 /* PathCommand.swift */,
+				8CB1014E6ED974DB5F3C595B8581C2AD /* PathDLexer.swift */,
+				93FCD9A58D6E9F6DAC88FA4A9E15ACF7 /* Scalar+FromByteArray.swift */,
+				70D4F9CAB278A9828CFBA5B2199D8945 /* Stack.swift */,
+				16F8B6DFD0ACCCFE2BDA4EC3EB3CFFBB /* String+Subscript.swift */,
+				1A86CAB8AD7B6E3003B3E8FBEC51033C /* String+Trim.swift */,
+				FA679CA8A1745CDAD21FE16A4AAA2426 /* Strokable.swift */,
+				66D6942F02BFFC972597ABC2F9256F27 /* Stylable.swift */,
+				5A232BF5C620580C2AB86F0869A23028 /* SVGCache.swift */,
+				ACAE925EB0BAE7A7734DD1E3546AE390 /* SVGCircle.swift */,
+				258A4D5498F265A2D1FEFBE6B90874CC /* SVGContainerElement.swift */,
+				213F7359C8582BDA62BA152351FB0ECB /* SVGElement.swift */,
+				79137D5E4323C4EDA691FAC6326DC89D /* SVGEllipse.swift */,
+				1AE391AA6181BE181CED78A6720467F9 /* SVGGroup.swift */,
+				50CD6B3F198756B12E6877B37F21E0D8 /* SVGLayer.swift */,
+				0887B6C0DDA531B029CF056A33199657 /* SVGLine.swift */,
+				FD38846D32B5F293BE058EE6D8771148 /* SVGParser.swift */,
+				5057C6203633BF54B1E39E9674507437 /* SVGParserSupportedElements.swift */,
+				56BACFB75427B810E4BF150D34B6F84F /* SVGPath.swift */,
+				2834627532924945E0E5F5021007FF44 /* SVGPolygon.swift */,
+				184BABB3D7139622CC77801CD6908142 /* SVGPolyline.swift */,
+				3BF260BF9F11C8373AC951C3E50F985D /* SVGRectangle.swift */,
+				658C1312B0A8CF60AB65904C8D982C18 /* SVGRootElement.swift */,
+				B2A4C6335322CC6E5187797586933F04 /* SVGShapeElement.swift */,
+				A5512325A69EB6AF2AFCC5B0EBA14C91 /* SVGView.swift */,
+				1BF3210A3DB6AB1741D869CEF1D1CF16 /* Transformable.swift */,
+				C5D2C9E4C916821E7BC7521B12EE1A8E /* UIBezierPath+SVG.swift */,
+				EEB7C6F846ED95CA8FDF7CED632F88C9 /* UIColor+Extensions.swift */,
+				607A95BCC4A1F1A7F88E956E13882F14 /* UIView+SVG.swift */,
+				77F56628047F04C66287D1F0EF9103AA /* Support Files */,
 			);
-			name = Products;
+			name = SwiftSVG;
+			path = SwiftSVG;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E4BD46A20194230074CFBEFFD84AB4E2 /* Headers */ = {
+		72B8662B1EFF34161D6FA1C48D02DCA0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F29C784E23AF6E14EAD73D629407C23 /* Pods-VBRProceduralStrings-umbrella.h in Headers */,
+				B1C61310934A214C45C1396BFCCEDEAA /* Pods-VBRProceduralStrings-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B2360830BAD698E3A0FC9F041E154E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700F758AA93032D173B7DFC45AAF2390 /* SwiftSVG-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		229655C9959BFE23C7A487B4E9E55C70 /* Pods-VBRProceduralStrings */ = {
+		7B7AA64E11E572F32E937D7CCD5EC486 /* Pods-VBRProceduralStrings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9912D44DA7804D0F927E0DB47015A994 /* Build configuration list for PBXNativeTarget "Pods-VBRProceduralStrings" */;
+			buildConfigurationList = 9C5691F70DCA67A2192F4504EBB54545 /* Build configuration list for PBXNativeTarget "Pods-VBRProceduralStrings" */;
 			buildPhases = (
-				D2CD1B0601606AFE91167489462283CF /* Sources */,
-				A847FEC25D0DB4FEF4B463B1272DBC6F /* Frameworks */,
-				E4BD46A20194230074CFBEFFD84AB4E2 /* Headers */,
+				0829B11BE1F28C87E313C3309E23EEE4 /* Sources */,
+				675C8C57B4534173E16BDFFBD3183FFE /* Frameworks */,
+				72B8662B1EFF34161D6FA1C48D02DCA0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4016F61B1DEA766B421901B21F328EF /* PBXTargetDependency */,
+			);
+			name = "Pods-VBRProceduralStrings";
+			productName = "Pods-VBRProceduralStrings";
+			productReference = 2FB743AE11CDFE5E7CA762EE7938026F /* Pods_VBRProceduralStrings.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBBE5417CE45CDF672848563E0CB2ED4 /* SwiftSVG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E727EBDC547F11BA18968439FF632DD /* Build configuration list for PBXNativeTarget "SwiftSVG" */;
+			buildPhases = (
+				C1698657FC929FE2CE330B0E23744921 /* Sources */,
+				7E285444A9D2B6585F50AFC5E442E2A3 /* Frameworks */,
+				A4B2360830BAD698E3A0FC9F041E154E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-VBRProceduralStrings";
-			productName = "Pods-VBRProceduralStrings";
-			productReference = 07C76AE4E5664AFEC1410933A0D4E14A /* Pods_VBRProceduralStrings.framework */;
+			name = SwiftSVG;
+			productName = SwiftSVG;
+			productReference = 047A8EC6680EBE90CEF13A0EDBDDF9DC /* SwiftSVG.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -146,25 +368,88 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CACB985E8A8BB351E33719AC3461BF5C /* Products */;
+			productRefGroup = 42C57D4815DE7BC70872987519575F7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				229655C9959BFE23C7A487B4E9E55C70 /* Pods-VBRProceduralStrings */,
+				7B7AA64E11E572F32E937D7CCD5EC486 /* Pods-VBRProceduralStrings */,
+				CBBE5417CE45CDF672848563E0CB2ED4 /* SwiftSVG */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2CD1B0601606AFE91167489462283CF /* Sources */ = {
+		0829B11BE1F28C87E313C3309E23EEE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F29A67FF3B4AE3D7012D0EC0F713E3 /* Pods-VBRProceduralStrings-dummy.m in Sources */,
+				9B85B40EF0C1505E73CE0A59B242622E /* Pods-VBRProceduralStrings-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1698657FC929FE2CE330B0E23744921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995EE170FBEDABC119CE15C3C1918F2 /* BinaryFloatingPoint+ParseLengthString.swift in Sources */,
+				D53C6278862753B361B27793E50F4AA0 /* CALayer+Sublayers.swift in Sources */,
+				7BBC50E273AC378D28AB2D79D636B56A /* CALayer+SVG.swift in Sources */,
+				6C9544BD8D37AE790328873F4D9074F4 /* CAShapeLayer+SVG.swift in Sources */,
+				BAECF1AFD5AC7F302EE3FBC596DF8318 /* CoordinateLexer.swift in Sources */,
+				3A81344260EC6CDA8F14F9D3DF9A8A19 /* CrossPlatform.swift in Sources */,
+				8D9CD2273F6D2FBD504CD2382302C5AF /* Data+CacheKey.swift in Sources */,
+				71A65F31E8E760E6990C4EF27CD4EAE7 /* DelaysApplyingAttributes.swift in Sources */,
+				2C10ECFCDECD556506EDEE688CCE571B /* Dictionary+Add.swift in Sources */,
+				A70630EA06EA5D5B9450A60039FBE56C /* DispatchQueue+Extensions.swift in Sources */,
+				E02C1DE706BE768CAAF839DA0B66728C /* Fillable.swift in Sources */,
+				3D9EC4ED3A93A2ACEA733BBF7CBEFA36 /* FloatingPoint+DegreesRadians.swift in Sources */,
+				EA7584C4FB0B0313A526A007889388F6 /* Identifiable.swift in Sources */,
+				0BD574B415ED003F2B7FEDD67C020BDB /* NSBezierPath+CrossPlatform.swift in Sources */,
+				C62B958DF1335A29F17B857B0E9F5855 /* NSXMLSVGParser.swift in Sources */,
+				B18F3836FAAC3F0E28E96EB374B85116 /* ParsesAsynchronously.swift in Sources */,
+				7A9332CCB556E00FF1759B342A04BF83 /* PathCommand.swift in Sources */,
+				4994752222FDE3E72F8ADF74DD45B8D4 /* PathDLexer.swift in Sources */,
+				55405E7BEC06386BA13056BA906CC880 /* Scalar+FromByteArray.swift in Sources */,
+				232AFC90575A5BD6543BBAC27B6A1110 /* Stack.swift in Sources */,
+				C3D5F7359C5B9B274249D67F5C67C431 /* String+Subscript.swift in Sources */,
+				9BDE79865C45B6133D59BE46FA589042 /* String+Trim.swift in Sources */,
+				317E65CEF4A86E19A7CDE46DD7E7F1E8 /* Strokable.swift in Sources */,
+				194947BD1CC51FBEFC678E4F8FE45F2E /* Stylable.swift in Sources */,
+				67CFF679C51211C487DAE68268ABE654 /* SVGCache.swift in Sources */,
+				667814348D677973377CAAF5631FDEDD /* SVGCircle.swift in Sources */,
+				C7DD6D277F25452402694FCADBE062B4 /* SVGContainerElement.swift in Sources */,
+				935ABC9BA5B80877F5ACD0864FF76103 /* SVGElement.swift in Sources */,
+				9065E922C579180E12A5C2C800F3E6E8 /* SVGEllipse.swift in Sources */,
+				6D5BD7C74EBFE9881C866B8F34B918F8 /* SVGGroup.swift in Sources */,
+				9C6C5946A624D0C3BFDDBFC60D28AB0F /* SVGLayer.swift in Sources */,
+				B918C68063B23741BA69A7CEB931AAEB /* SVGLine.swift in Sources */,
+				41AE0B6FCA194B04084626C3B47A0F4C /* SVGParser.swift in Sources */,
+				A147822A9B09A94DC06AE92111FBE6A4 /* SVGParserSupportedElements.swift in Sources */,
+				914CC43DE351981BB9E9262FD383B1CD /* SVGPath.swift in Sources */,
+				D3FDD4158D32A08F760A21B8495ACBE1 /* SVGPolygon.swift in Sources */,
+				0A4CDCFC82442A0917CAED26EA93124A /* SVGPolyline.swift in Sources */,
+				FD0871404CA8204EEADB9C4689976FD4 /* SVGRectangle.swift in Sources */,
+				0F879FB07CCB05B5036B31BBE3D10E67 /* SVGRootElement.swift in Sources */,
+				05B54CD78206597E3148D2F57D27C333 /* SVGShapeElement.swift in Sources */,
+				48D9509042562C4E55AB3F215F34A0F8 /* SVGView.swift in Sources */,
+				986E7AB8CE2D8C873439846EAB55EDBA /* SwiftSVG-dummy.m in Sources */,
+				5F2A2EA90DBEFA0746621D79325CFD25 /* Transformable.swift in Sources */,
+				F04AB7BD3E577C30E3D8D7A9357B09A5 /* UIBezierPath+SVG.swift in Sources */,
+				203198AA21979657C308B7C4730FBD05 /* UIColor+Extensions.swift in Sources */,
+				905C5300EE7AA8BAC88263248C34AE45 /* UIView+SVG.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4016F61B1DEA766B421901B21F328EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSVG;
+			target = CBBE5417CE45CDF672848563E0CB2ED4 /* SwiftSVG */;
+			targetProxy = 2E24D6D95AF8DDD7636348E1A89CBF78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
@@ -225,7 +510,7 @@
 			};
 			name = Release;
 		};
-		235E1EF654B4453699E82987F57A14EA /* Release */ = {
+		5787CB1FF8C6C1FD451DA1EF4FF145EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A33A33B84236285C33E9531D17B60017 /* Pods-VBRProceduralStrings.release.xcconfig */;
 			buildSettings = {
@@ -257,6 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -264,7 +550,7 @@
 			};
 			name = Release;
 		};
-		54272F1D86D90A02F4EEC8E71C03204C /* Debug */ = {
+		5BF1561B37AD4EA066315D482C9BC2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7925B453B523FF6D4E317F45F7281AA8 /* Pods-VBRProceduralStrings.debug.xcconfig */;
 			buildSettings = {
@@ -296,6 +582,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -365,6 +653,79 @@
 			};
 			name = Debug;
 		};
+		AA51D96260D353CE41DC07A3135F7D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E729036C51D02B93EBB09FA9F75EA083 /* SwiftSVG.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSVG/SwiftSVG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSVG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSVG/SwiftSVG.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSVG;
+				PRODUCT_NAME = SwiftSVG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F32F111F6736B6F7382B6F0743FD2F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E729036C51D02B93EBB09FA9F75EA083 /* SwiftSVG.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSVG/SwiftSVG-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSVG/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSVG/SwiftSVG.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSVG;
+				PRODUCT_NAME = SwiftSVG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,11 +738,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9912D44DA7804D0F927E0DB47015A994 /* Build configuration list for PBXNativeTarget "Pods-VBRProceduralStrings" */ = {
+		8E727EBDC547F11BA18968439FF632DD /* Build configuration list for PBXNativeTarget "SwiftSVG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54272F1D86D90A02F4EEC8E71C03204C /* Debug */,
-				235E1EF654B4453699E82987F57A14EA /* Release */,
+				F32F111F6736B6F7382B6F0743FD2F77 /* Debug */,
+				AA51D96260D353CE41DC07A3135F7D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5691F70DCA67A2192F4504EBB54545 /* Build configuration list for PBXNativeTarget "Pods-VBRProceduralStrings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF1561B37AD4EA066315D482C9BC2C8 /* Debug */,
+				5787CB1FF8C6C1FD451DA1EF4FF145EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

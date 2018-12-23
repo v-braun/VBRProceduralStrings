@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 833c692eff69a8dd8eb1e2ced942c89e83705ee7
+PODS:
+  - SwiftSVG (2.1.5)
+
+DEPENDENCIES:
+  - SwiftSVG (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftSVG
+
+SPEC CHECKSUMS:
+  SwiftSVG: 9d78f41396a921c210ce9898ada05c85d412acb8
+
+PODFILE CHECKSUM: 996724cba20a7a2b79456f576f98972db3daf413
 
 COCOAPODS: 1.5.3
