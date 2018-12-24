@@ -7,6 +7,8 @@ language: objective-c
 # xcode_workspace: VBRProceduralStrings.xcworkspace 
 
 #xcode_scheme: VBRProceduralStrings
+before_install:
+- pod update
 
 script:
   - xcodebuild -scheme VBRProceduralStrings -workspace VBRProceduralStrings.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11.3' build
