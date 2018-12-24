@@ -10,5 +10,7 @@ language: objective-c
 before_install:
 - pod update
 
+osx_image: xcode10.1
+
 script:
-  - xcodebuild -scheme VBRProceduralStrings -workspace VBRProceduralStrings.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=11.3' build
+  - xcodebuild -scheme VBRProceduralStrings -workspace VBRProceduralStrings.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=12.1' build
