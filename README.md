@@ -108,6 +108,11 @@ pod 'VBRProceduralStrings', :git => 'https://github.com/v-braun/VBRProceduralStr
 
 ```
 
+## Related Projects
+- [Cocoa Rocks](https://cocoa.rocks/): this and other awesome Cocoa Controls
+- [awesome-cocoa](https://github.com/v-braun/awesome-cocoa): an awesome list of cocoa controls
+- [procedural-strings-js](https://github.com/v-braun/procedural-strings-js): js version of this project
+
 
 ## Authors
 
